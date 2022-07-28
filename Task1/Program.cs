@@ -21,7 +21,7 @@ int y2 = int.Parse(Console.ReadLine());
 Console.WriteLine("Введите координату z2 ");
 int z2 = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Длина отрезка = " + GetLength(x1,y1,z1,x2,y2,z2));
+Console.WriteLine("Длина отрезка = " + Math.Round(GetLength(x1,y1,z1,x2,y2,z2),2));
 
 
 
